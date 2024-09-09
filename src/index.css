@@ -1,0 +1,50 @@
+ body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.calculator-box {
+  border-radius: 15px; 
+  box-shadow: 0 8px 16px rgba(98, 130, 219, 0.2); 
+  border: 1px solid ; 
+  max-width: 400px; 
+  width: 100%; 
+  padding: 20px; 
+}
+
+
+.form-control {
+  border-radius: 8px; 
+  border: 1px solid #0c80e6; 
+  padding: 10px; 
+}
+
+.btn-success {
+  border: none;
+  border-radius: 8px; 
+}
+
+.btn-danger {
+  border: none;
+  border-radius: 8px; 
+}
+
+.btn {
+  color: #ffffff; 
+  padding: 10px 20px; 
+}
+
+.btn:hover {
+  opacity: 0.9; 
+}
+
+.btn-success:hover {
+  background-color: #218838; 
+}
+
+.btn-danger:hover {
+  background-color: #c82333; 
+} 
